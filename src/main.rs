@@ -7,7 +7,6 @@ use std::path::Path;
 fn main() {
     let matches = Command::new("Pickle Formatter")
         .version("1.0")
-        .author("Your Name <you@example.com>")
         .about("Formats Nickel code into various target languages")
         .arg(Arg::new("input")
             .short('i')
